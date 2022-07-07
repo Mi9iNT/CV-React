@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/CV-React/static/css/main.59c83f98.css",
+    "main.js": "/CV-React/static/js/main.cb118b3a.js",
+    "static/js/787.6bc6f9d2.chunk.js": "/CV-React/static/js/787.6bc6f9d2.chunk.js",
+    "static/media/Oswald-VariableFont_wght.ttf": "/CV-React/static/media/Oswald-VariableFont_wght.1480e295ab356d039e8d.ttf",
+    "static/media/AvatarCropped.png": "/CV-React/static/media/AvatarCropped.37295217a3d249a59bb8.png",
+    "static/media/Avatar.svg": "/CV-React/static/media/Avatar.5c58474fb58ae3bf9a81fb9d16cf647a.svg",
+    "static/media/PHP.svg": "/CV-React/static/media/PHP.36e6e4cff2c817030d45e2355c4056c8.svg",
+    "static/media/Sass.svg": "/CV-React/static/media/Sass.540ec25faf04e640b555c5773d3a6d9f.svg",
+    "static/media/Javascript.svg": "/CV-React/static/media/Javascript.c32d067462242764b44cbd78ed2ad3e4.svg",
+    "static/media/Photoshop.svg": "/CV-React/static/media/Photoshop.21b3c1e00213c9613773022511f98503.svg",
+    "static/media/XD.svg": "/CV-React/static/media/XD.d42e60c4655af5aa02c5367d68ddafa1.svg",
+    "static/media/Blender.svg": "/CV-React/static/media/Blender.e1f221731ac65bcde0af5dd6b72ef338.svg",
+    "static/media/After.svg": "/CV-React/static/media/After.24de22641b65e50453ee9a3f2efa9ac4.svg",
+    "static/media/Premiere.svg": "/CV-React/static/media/Premiere.efd2d57231c1b7abb7b80e46bab5e64f.svg",
+    "static/media/Wordpress.svg": "/CV-React/static/media/Wordpress.e4634128c32a2ae7ddf790fb47bef873.svg",
+    "static/media/CSS3.svg": "/CV-React/static/media/CSS3.c2f5e6b606420b9d351d653674303e38.svg",
+    "static/media/Symfony.svg": "/CV-React/static/media/Symfony.b335c3281d13d19ea7ebd3d5a9b38e68.svg",
+    "static/media/Illustrator.svg": "/CV-React/static/media/Illustrator.da5e6f1d97707c10129a8174e75492d6.svg",
+    "static/media/house-solid-blanc.svg": "/CV-React/static/media/house-solid-blanc.de6f0f53d05a0f5d73982fd2763a558c.svg",
+    "static/media/house-solid.svg": "/CV-React/static/media/house-solid.5728388793e3276b853f1808d543e55a.svg",
+    "static/media/HTML5.svg": "/CV-React/static/media/HTML5.aff8a9cb398fc75e4f21dab1ba1e097e.svg",
+    "static/media/phone-solid-blanc.svg": "/CV-React/static/media/phone-solid-blanc.1b8d32b9b0989dfecf1ce908d19dce2b.svg",
+    "static/media/GIT.svg": "/CV-React/static/media/GIT.667008d3ba3b716af63097b72a40330f.svg",
+    "static/media/phone-solid.svg": "/CV-React/static/media/phone-solid.d11a5673b368c47201f7dc8d86dc0719.svg",
+    "static/media/envelope-solid-blanc.svg": "/CV-React/static/media/envelope-solid-blanc.9427b6d0f90317c746654e94f7eebba0.svg",
+    "static/media/envelope-solid.svg": "/CV-React/static/media/envelope-solid.dba533a0d3bd121023c13a25036858ed.svg",
+    "static/media/Webflow.svg": "/CV-React/static/media/Webflow.c0def6992bc9ae494e4814a476b98af7.svg",
+    "index.html": "/CV-React/index.html",
+    "static/media/React.svg": "/CV-React/static/media/React.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.59c83f98.css.map": "/CV-React/static/css/main.59c83f98.css.map",
+    "main.cb118b3a.js.map": "/CV-React/static/js/main.cb118b3a.js.map",
+    "787.6bc6f9d2.chunk.js.map": "/CV-React/static/js/787.6bc6f9d2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59c83f98.css",
+    "static/js/main.cb118b3a.js"
+  ]
+}
