@@ -1,0 +1,185 @@
+$BREAKPOINT-DESK: "only screen and (min-width: 1280px)";
+$BREAKPOINT-TABLET-LAND: "only screen and (min-width: 800px)";
+$BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
+$BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 100px)";
+
+@media #{$BREAKPOINT-MOBILE-LAND} {
+    h2{
+        color: $color-3;
+    }
+    .Avatar {
+        display: block;
+        width: 5rem;
+        margin: 0 auto;
+    }
+    .AvatarBlanc {
+        display: none;
+    }
+    .user-info{
+        line-height: 0.8rem;
+        font-size: 1.2rem;
+        margin: 0rem;
+        color: $color-2;
+    }
+    .user-infos {
+        position: relative;
+        top: 2rem;
+    }
+    .user-name{
+        color: $color-2;
+    }
+    a{
+        text-decoration: none;
+        color: $color-2;
+    }
+    .Adresse{
+        display: block;
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+        width: 2rem;
+    }
+    .AdresseBlanc{
+        display: none;
+    }
+    .dotDot {
+        position: relative;
+        left: -10rem;
+        top: 1rem;
+    }
+    .identity {
+        position: relative;
+        top: 1rem;
+        line-height: 3rem;
+    }
+    .Telephone{
+        display: block;
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+        width: 2rem;
+    }
+    .TelephoneBlanc{
+        display: none;
+    }
+    .dotDot1 {
+        position: relative;
+        left: -10rem;
+        top: 1.4rem;
+    }
+    .AdresseMail{
+        display: block;
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+        width: 2rem;
+    }
+    .AdresseMailBlanc{
+        display: none;
+    }
+    .dotDot2 {
+        position: relative;
+        left: -10rem;
+        top: 1rem;
+    }
+    
+}
+@media #{$BREAKPOINT-TABLET} {
+    .Adresse {
+            display: block;
+            position: relative;
+            top: 2rem;
+            left: 4rem;
+            width: 2rem;
+        }
+        .identity {
+            position: relative;
+            top: 1rem;
+            line-height: 3rem;
+        }
+    
+        .Telephone {
+            display: block;
+            position: relative;
+            top: 2.5rem;
+            left: 4rem;
+            width: 2rem;
+        }
+        .AdresseMail {
+            display: block;
+            position: relative;
+            top: 2.5rem;
+            left: 4rem;
+            width: 2rem;
+        }
+}
+@media #{$BREAKPOINT-DESK} {
+    .Avatar {
+        display: none;
+    }
+
+    .AvatarBlanc {
+        display: block;
+        width: 5rem;
+        margin: 0 auto;
+    }
+    .identity{
+        position: relative;
+        top: 1rem;
+        line-height: 3rem;
+    }
+    .user-info{
+        position: relative;
+        left: 4rem;
+        text-align: left;
+        color: $white;
+    }
+    .user-infos{
+        position: relative;
+        top: 2rem;
+    }
+    .user-name {
+        color: $white;
+    }
+    h2{
+        color: $color-1;
+    }
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+    address{
+        color: $white;
+    }
+    .Adresse {
+        display: none;
+    }
+    .AdresseBlanc {
+        display: block;
+        position: relative;
+        top: 2rem;
+        left: -4rem;
+        width: 2rem;
+    }
+    .Telephone {
+        display: none;
+    }
+    .TelephoneBlanc {
+        display: block;
+        position: relative;
+        top: 2rem;
+        left: -4rem;
+        width: 2rem;
+    }
+    .AdresseMail {
+        display: none;
+    }
+    .AdresseMailBlanc {
+        display: block;
+        position: relative;
+        top: 2rem;
+        left: -4rem;
+        width: 2rem;
+    }
+}
+    

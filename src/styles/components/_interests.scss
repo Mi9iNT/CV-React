@@ -1,0 +1,36 @@
+$BREAKPOINT-DESK: "only screen and (min-width: 1280px)";
+$BREAKPOINT-TABLET-LAND: "only screen and (min-width: 975px)";
+$BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
+$BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 100px)";
+
+@media #{$BREAKPOINT-MOBILE-LAND} {
+    .interets{
+        position: relative;
+        top: -6rem;
+    }
+    .interet{
+        position: relative;
+        top: 1rem;
+        text-align: left;
+        color: $color-2;
+        font-weight: 600;
+        line-height: 2rem;
+        overflow: auto;
+        height: 10rem;
+    }
+}
+@media #{$BREAKPOINT-DESK} {
+    .interets {
+        position: relative;
+        top: -5rem;
+    }
+
+    .interet {
+        position: relative;
+        top: 2rem;
+        text-align: left;
+        color: $white;
+        font-weight: 600;
+        line-height: 3rem;
+    }
+}

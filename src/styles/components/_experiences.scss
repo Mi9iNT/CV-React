@@ -1,0 +1,39 @@
+$BREAKPOINT-DESK: "only screen and (min-width: 1280px)";
+$BREAKPOINT-TABLET-LAND: "only screen and (min-width: 975px)";
+$BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
+$BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 100px)";
+
+@media #{$BREAKPOINT-MOBILE-LAND} {
+    h3{
+        text-align: center;
+    }
+    .grid-row_exp{ 
+        top: 4rem;
+        position: relative;
+    }
+    .cursus_exp{
+        overflow: auto;
+        top: 5rem;
+        position: relative;
+        height: 45rem;
+    }
+    .grid_title_exp{
+        margin: 3rem;
+    }
+   .grid_item_exp{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        margin: 1rem 0rem 0rem 2rem;
+        line-height: 2rem;
+   }
+   .grid_date_exp{
+        margin: 0rem;
+   }
+   .grid_location_exp {
+       margin: 0rem;
+   }
+   .missions_exp{
+        margin: 1rem;
+        margin-top: 0rem;
+   }
+}

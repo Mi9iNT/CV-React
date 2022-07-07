@@ -1,0 +1,95 @@
+$BREAKPOINT-DESK: "only screen and (min-width: 1280px)";
+$BREAKPOINT-TABLET-LAND: "only screen and (min-width: 975px)";
+$BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
+$BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 100px)";
+
+@media #{$BREAKPOINT-MOBILE-LAND} {
+    .skill-title {
+        display: grid;
+        text-align: left;
+        position: relative;
+        color: $color-2;
+    }
+    .skillImg{
+        width: 2rem;
+        position: relative;
+        top: 1rem;
+        left: 5rem;
+        margin: 1rem;
+    }
+    .skillImg2 {
+        width: 2rem;
+        position: relative;
+        top: -1rem;
+        left: -3rem;
+    }
+    .skillImg3 {
+        width: 2rem;
+        position: relative;
+        top: -3rem;
+        left: 3rem;
+    }
+    .skills{
+        height: 20rem;
+    }
+    .skill{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        top: 2rem;
+    }
+    .skills-wallet{
+        margin: 1rem;
+    }
+    .skill-wallet{
+        position: relative;
+        top: 0rem;
+        color: $color-3;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+}
+@media #{$BREAKPOINT-DESK} {
+    .skill-title {
+        text-align: left;
+        display: flex;
+        text-align: left;
+        color: $color-2;
+        position: relative;
+        left: 1rem;
+        top: 3rem;
+        margin: 0rem;
+        width: 10rem;
+        color: $color-1;
+    }
+    .skillImg {
+        width: 2rem;
+        position: relative;
+        top: 3rem;
+        margin: 1rem;
+        left: 3rem;
+    }
+    .skillImg2 {
+        width: 2rem;
+        position: relative;
+        top: -1rem;
+        left: -3rem;
+    }
+
+    .skillImg3 {
+        width: 2rem;
+        position: relative;
+        top: -3rem;
+        left: 1rem;
+    }
+    .skill{
+        top: 1rem;
+    }
+
+    .skills {
+        height: 20rem;
+    }
+    .skill-wallet{
+        top: 2rem;
+    }
+}

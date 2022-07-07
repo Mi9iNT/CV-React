@@ -1,0 +1,22 @@
+$BREAKPOINT-DESK: "only screen and (min-width: 1280px)";
+$BREAKPOINT-TABLET-LAND: "only screen and (min-width: 975px)";
+$BREAKPOINT-TABLET: "only screen and (min-width: 600px)";
+$BREAKPOINT-MOBILE-LAND: "only screen and (min-width: 100px)";
+
+@media #{$BREAKPOINT-MOBILE-LAND} {
+    p{
+        color: $color-2;
+        margin: 2rem;
+        font-style:oblique;
+    }
+    .ProfilTitle{
+        margin: 1rem;
+        position: relative;
+        text-align: center;
+    }
+}
+@media #{$BREAKPOINT-DESK} {
+    .ProfilTitle{
+        text-align: center;
+    }
+}
